@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="layoutPreference">auto layout</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">/ThemesReportItems31.rptlibrary</property>
+            <property name="namespace">ThemesReportItems31</property>
+        </structure>
+    </list-property>
+    <data-sources>
+        <data-mart-data-source name="CSInsights Data Object" id="4">
+            <property name="datamartURL">Data Objects/CSInsights Data Object</property>
+            <property name="accessType">latest</property>
+        </data-mart-data-source>
+    </data-sources>
+    <data-sets>
+        <data-mart-data-set name="Number of Workflows by Status" id="22">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Status</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Status</text-property>
+                    <text-property name="heading">Status</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Number of Workflows</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">Number of Workflows</text-property>
+                    <text-property name="heading">Number of Workflows</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Status</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Number of Workflows</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Number of Workflow by Status</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Status</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Number of Workflows</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Projects by Status" id="115">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Status</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Status</text-property>
+                    <text-property name="heading">Status</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Number of Projects</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">Number of Projects</text-property>
+                    <text-property name="heading">Number of Projects</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Status</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Number of Projects</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Projects by Status</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Status</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Number of Projects</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Violations" id="129">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Months</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Months</text-property>
+                    <text-property name="heading">Months</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfFailedLogins</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfFailedLogins</text-property>
+                    <text-property name="heading">NumberOfFailedLogins</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Months</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">NumberOfFailedLogins</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Violations</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Months</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">NumberOfFailedLogins</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="File Downloads" id="209">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Name</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Name</text-property>
+                    <text-property name="heading">Name</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Downloaded Frequency</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">Downloaded Frequency</text-property>
+                    <text-property name="heading">Downloaded Frequency</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Downloaded Frequency</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Top Downloads by Frequency</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Downloaded Frequency</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Activities" id="239">
+            <list-property name="computedColumns">
+                <structure>
+                    <property name="name">total activities</property>
+                    <expression name="expression" type="javascript">row["NumberOfDownloads"]+row["NumberOfViews"]+row["NumberOfUploads"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Months</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Months</text-property>
+                    <text-property name="heading">Months</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfDownloads</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfDownloads</text-property>
+                    <text-property name="heading">NumberOfDownloads</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfViews</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfViews</text-property>
+                    <text-property name="heading">NumberOfViews</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfUploads</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfUploads</text-property>
+                    <text-property name="heading">NumberOfUploads</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">total activities</property>
+                    <property name="analysis">measure</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Months</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">NumberOfDownloads</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">NumberOfViews</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">NumberOfUploads</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">total activities</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Activities</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Months</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">NumberOfDownloads</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">NumberOfViews</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">NumberOfUploads</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Most Searched Term" id="251">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Term</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Term</text-property>
+                    <text-property name="heading">Term</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfTimesAppearedInSearch</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfTimesAppearedInSearch</text-property>
+                    <text-property name="heading">NumberOfTimesAppearedInSearch</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <list-property name="filter">
+                <structure>
+                    <property name="operator">not-in</property>
+                    <expression name="expr" type="javascript">row["Term"]</expression>
+                    <simple-property-list name="value1">
+                        <value>"0"</value>
+                        <value>"11"</value>
+                        <value>"12"</value>
+                        <value>"144"</value>
+                        <value>"147"</value>
+                        <value>"2"</value>
+                        <value>"21487"</value>
+                        <value>"260804"</value>
+                        <value>"30166"</value>
+                        <value>"30167"</value>
+                        <value>"31350"</value>
+                        <value>"31352"</value>
+                        <value>"3267798"</value>
+                        <value>"3270890"</value>
+                        <value>"3271099"</value>
+                        <value>"3275166"</value>
+                        <value>"3278246"</value>
+                        <value>"3279896"</value>
+                        <value>"3281882"</value>
+                        <value>"3281892"</value>
+                        <value>"3281902"</value>
+                        <value>"3283087"</value>
+                        <value>"3289368"</value>
+                        <value>"3289577"</value>
+                        <value>"3289588"</value>
+                        <value>"3290129"</value>
+                        <value>"3290898"</value>
+                        <value>"3298165"</value>
+                        <value>"3298606"</value>
+                        <value>"3448279"</value>
+                        <value>"3541554"</value>
+                        <value>"3541571"</value>
+                        <value>"3541778"</value>
+                        <value>"3541791"</value>
+                        <value>"3541887"</value>
+                        <value>"3542339"</value>
+                        <value>"3542356"</value>
+                        <value>"3542768"</value>
+                        <value>"3542783"</value>
+                        <value>"3542796"</value>
+                        <value>"3542816"</value>
+                        <value>"3542826"</value>
+                        <value>"3542836"</value>
+                        <value>"3543095"</value>
+                        <value>"3543531"</value>
+                        <value>"3543555"</value>
+                        <value>"3548480"</value>
+                        <value>"3548490"</value>
+                        <value>"4"</value>
+                        <value>"6"</value>
+                        <value>"749"</value>
+                        <value>"8"</value>
+                        <value>"848"</value>
+                        <value>"9"</value>
+                        <value>"&lt;Attr_26237_2>Automotive&lt;/Attr_26237_2>"</value>
+                        <value>"&lt;Attr_3539255_13>REVIEW&lt;/Attr_3539255_13>"</value>
+                        <value>"HR-"</value>
+                        <value>"plicy"</value>
+                        <value>"polkicy"</value>
+                        <value>"spill"</value>
+                        <value>"the"</value>
+                        <value>"to"</value>
+                    </simple-property-list>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Term</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">NumberOfTimesAppearedInSearch</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Most Searched Terms</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Term</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">NumberOfTimesAppearedInSearch</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Users by Location" id="276">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">OfficeLocation</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">OfficeLocation</text-property>
+                    <text-property name="heading">OfficeLocation</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfUsers</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfUsers</text-property>
+                    <text-property name="heading">NumberOfUsers</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">OfficeLocation</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">NumberOfUsers</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Users by Location</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">OfficeLocation</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">NumberOfUsers</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Most Active Projects" id="277">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Name</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Name</text-property>
+                    <text-property name="heading">Name</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">DataID</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">DataID</text-property>
+                    <text-property name="heading">DataID</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">NumberOfActions</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">NumberOfActions</text-property>
+                    <text-property name="heading">NumberOfActions</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">DataID</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">NumberOfActions</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Most Active Projects</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">DataID</property>
+                    <property name="dataType">decimal</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">NumberOfActions</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+        <data-mart-data-set name="Todays Activity" id="278">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Action</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Action</text-property>
+                    <text-property name="heading">Action</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Type</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">Type</text-property>
+                    <text-property name="heading">Type</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">YesterdayCount</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">YesterdayCount</text-property>
+                    <text-property name="heading">YesterdayCount</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">TodayCount</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">TodayCount</text-property>
+                    <text-property name="heading">TodayCount</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Order</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">Order</text-property>
+                    <text-property name="heading">Order</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Action</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Type</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">YesterdayCount</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">TodayCount</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">Order</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">CSInsights Data Object</property>
+            <property name="dataObject">Todays Activities</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Action</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Type</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">YesterdayCount</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">TodayCount</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">Order</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="orientation">landscape</property>
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <text name="Script Loader" id="1235">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<script>
+/*! head.load - v1.0.3 */
+(function(n,t){"use strict";function w(){}function u(n,t){if(n){typeof n=="object"&amp;&amp;(n=[].slice.call(n));for(var i=0,r=n.length;i<r;i++)t.call(n,n[i],i)}}function it(n,i){var r=Object.prototype.toString.call(i).slice(8,-1);return i!==t&amp;&amp;i!==null&amp;&amp;r===n}function s(n){return it("Function",n)}function a(n){return it("Array",n)}function et(n){var i=n.split("/"),t=i[i.length-1],r=t.indexOf("?");return r!==-1?t.substring(0,r):t}function f(n){(n=n||w,n._done)||(n(),n._done=1)}function ot(n,t,r,u){var f=typeof n=="object"?n:{test:n,success:!t?!1:a(t)?t:[t],failure:!r?!1:a(r)?r:[r],callback:u||w},e=!!f.test;return e&amp;&amp;!!f.success?(f.success.push(f.callback),i.load.apply(null,f.success)):e||!f.failure?u():(f.failure.push(f.callback),i.load.apply(null,f.failure)),i}function v(n){var t={},i,r;if(typeof n=="object")for(i in n)!n[i]||(t={name:i,url:n[i]});else t={name:et(n),url:n};return(r=c[t.name],r&amp;&amp;r.url===t.url)?r:(c[t.name]=t,t)}function y(n){n=n||c;for(var t in n)if(n.hasOwnProperty(t)&amp;&amp;n[t].state!==l)return!1;return!0}function st(n){n.state=ft;u(n.onpreload,function(n){n.call()})}function ht(n){n.state===t&amp;&amp;(n.state=nt,n.onpreload=[],rt({url:n.url,type:"cache"},function(){st(n)}))}function ct(){var n=arguments,t=n[n.length-1],r=[].slice.call(n,1),f=r[0];return(s(t)||(t=null),a(n[0]))?(n[0].push(t),i.load.apply(null,n[0]),i):(f?(u(r,function(n){s(n)||!n||ht(v(n))}),b(v(n[0]),s(f)?f:function(){i.load.apply(null,r)})):b(v(n[0])),i)}function lt(){var n=arguments,t=n[n.length-1],r={};return(s(t)||(t=null),a(n[0]))?(n[0].push(t),i.load.apply(null,n[0]),i):(u(n,function(n){n!==t&amp;&amp;(n=v(n),r[n.name]=n)}),u(n,function(n){n!==t&amp;&amp;(n=v(n),b(n,function(){y(r)&amp;&amp;f(t)}))}),i)}function b(n,t){if(t=t||w,n.state===l){t();return}if(n.state===tt){i.ready(n.name,t);return}if(n.state===nt){n.onpreload.push(function(){b(n,t)});return}n.state=tt;rt(n,function(){n.state=l;t();u(h[n.name],function(n){f(n)});o&amp;&amp;y()&amp;&amp;u(h.ALL,function(n){f(n)})})}function at(n){n=n||"";var t=n.split("?")[0].split(".");return t[t.length-1].toLowerCase()}function rt(t,i){function e(t){t=t||n.event;u.onload=u.onreadystatechange=u.onerror=null;i()}function o(f){f=f||n.event;(f.type==="load"||/loaded|complete/.test(u.readyState)&amp;&amp;(!r.documentMode||r.documentMode<9))&amp;&amp;(n.clearTimeout(t.errorTimeout),n.clearTimeout(t.cssTimeout),u.onload=u.onreadystatechange=u.onerror=null,i())}function s(){if(t.state!==l&amp;&amp;t.cssRetries<=20){for(var i=0,f=r.styleSheets.length;i<f;i++)if(r.styleSheets[i].href===u.href){o({type:"load"});return}t.cssRetries++;t.cssTimeout=n.setTimeout(s,250)}}var u,h,f;i=i||w;h=at(t.url);h==="css"?(u=r.createElement("link"),u.type="text/"+(t.type||"css"),u.rel="stylesheet",u.href=t.url,t.cssRetries=0,t.cssTimeout=n.setTimeout(s,500)):(u=r.createElement("script"),u.type="text/"+(t.type||"javascript"),u.src=t.url);u.onload=u.onreadystatechange=o;u.onerror=e;u.async=!1;u.defer=!1;t.errorTimeout=n.setTimeout(function(){e({type:"timeout"})},7e3);f=r.head||r.getElementsByTagName("head")[0];f.insertBefore(u,f.lastChild)}function vt(){for(var t,u=r.getElementsByTagName("script"),n=0,f=u.length;n<f;n++)if(t=u[n].getAttribute("data-headjs-load"),!!t){i.load(t);return}}function yt(n,t){var v,p,e;return n===r?(o?f(t):d.push(t),i):(s(n)&amp;&amp;(t=n,n="ALL"),a(n))?(v={},u(n,function(n){v[n]=c[n];i.ready(n,function(){y(v)&amp;&amp;f(t)})}),i):typeof n!="string"||!s(t)?i:(p=c[n],p&amp;&amp;p.state===l||n==="ALL"&amp;&amp;y()&amp;&amp;o)?(f(t),i):(e=h[n],e?e.push(t):e=h[n]=[t],i)}function e(){if(!r.body){n.clearTimeout(i.readyTimeout);i.readyTimeout=n.setTimeout(e,50);return}o||(o=!0,vt(),u(d,function(n){f(n)}))}function k(){r.addEventListener?(r.removeEventListener("DOMContentLoaded",k,!1),e()):r.readyState==="complete"&amp;&amp;(r.detachEvent("onreadystatechange",k),e())}var r=n.document,d=[],h={},c={},ut="async"in r.createElement("script")||"MozAppearance"in r.documentElement.style||n.opera,o,g=n.head_conf&amp;&amp;n.head_conf.head||"head",i=n[g]=n[g]||function(){i.ready.apply(null,arguments)},nt=1,ft=2,tt=3,l=4,p;if(r.readyState==="complete")e();else if(r.addEventListener)r.addEventListener("DOMContentLoaded",k,!1),n.addEventListener("load",e,!1);else{r.attachEvent("onreadystatechange",k);n.attachEvent("onload",e);p=!1;try{p=!n.frameElement&amp;&amp;r.documentElement}catch(wt){}p&amp;&amp;p.doScroll&amp;&amp;function pt(){if(!o){try{p.doScroll("left")}catch(t){n.clearTimeout(i.readyTimeout);i.readyTimeout=n.setTimeout(pt,50);return}e()}}()}i.load=i.js=ut?lt:ct;i.test=ot;i.ready=yt;i.ready(r,function(){y()&amp;&amp;u(h.ALL,function(n){f(n)});i.feature&amp;&amp;i.feature("domloaded",!0)})})(window);
+/*
+//# sourceMappingURL=head.load.min.js.map
+*/
+</script>
+<script>
+	function loadScripts(){
+		head.load("<VALUE-OF>var iter = _jsContext.getPageVariables().iterator();
+		var myVars = []
+		while(iter.hasNext()){
+			var myMap = iter.next();
+			if(myMap.getName().substring(0,7).toUpperCase() == "SCRIPT_"){
+				myVars.push(myMap.getValue());
+			}
+		}
+		myVars.join("\",\"");</VALUE-OF>", afterLoad);
+	}
+	
+	function afterLoad(){
+		<VALUE-OF>var callback = _jsContext.getPageVariable("Callback");
+if(callback != null &amp;&amp; callback != "")
+	callback + "()";
+else 
+	"";</VALUE-OF>
+	}
+
+	head(loadScripts());
+</script>]]></text-property>
+        </text>
+        <grid id="8">
+            <property name="height">1.4479166666666667in</property>
+            <property name="width">4in</property>
+            <expression name="bookmark" type="javascript">"WORKFLOWGADGET"</expression>
+            <column id="9"/>
+            <column id="10"/>
+            <row id="14">
+                <property name="backgroundColor">#00C663</property>
+                <property name="height">1.5in</property>
+                <cell id="15">
+                    <property name="verticalAlign">middle</property>
+                    <table id="23">
+                        <property name="fontFamily">"Lato"</property>
+                        <property name="width">2.5in</property>
+                        <property name="dataSet">Number of Workflows by Status</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Status</property>
+                                <text-property name="displayName">Status</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Status"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">Number of Workflows</property>
+                                <text-property name="displayName">Number of Workflows</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Number of Workflows"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">total workflows</property>
+                                <property name="dataType">float</property>
+                                <property name="aggregateFunction">SUM</property>
+                                <list-property name="arguments">
+                                    <structure>
+                                        <property name="name">Expression</property>
+                                        <expression name="value" type="javascript">row["Number of Workflows"]</expression>
+                                    </structure>
+                                </list-property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <column id="37">
+                            <property name="width">200px</property>
+                        </column>
+                        <column id="38"/>
+                        <header>
+                            <row id="24">
+                                <property name="fontSize">36pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="color">#FFFFFF</property>
+                                <cell id="25">
+                                    <property name="colSpan">1</property>
+                                    <property name="rowSpan">1</property>
+                                    <property name="paddingLeft">10pt</property>
+                                    <property name="paddingBottom">10pt</property>
+                                    <label id="42">
+                                        <property name="fontSize">24pt</property>
+                                        <property name="fontWeight">bold</property>
+                                        <property name="textAlign">left</property>
+                                        <text-property name="text">Workflows:</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="41">
+                                    <property name="paddingBottom">10pt</property>
+                                    <data id="39">
+                                        <property name="fontSize">24pt</property>
+                                        <property name="fontWeight">bold</property>
+                                        <property name="textAlign">right</property>
+                                        <property name="resultSetColumn">total workflows</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                        <detail>
+                            <row id="29">
+                                <property name="color">#FFFFFF</property>
+                                <property name="textAlign">right</property>
+                                <cell id="30">
+                                    <property name="paddingLeft">10pt</property>
+                                    <data id="31">
+                                        <property name="fontWeight">bold</property>
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="textAlign">left</property>
+                                        <property name="resultSetColumn">Status</property>
+                                    </data>
+                                </cell>
+                                <cell id="32">
+                                    <data id="33">
+                                        <property name="fontWeight">bold</property>
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="textAlign">right</property>
+                                        <property name="resultSetColumn">Number of Workflows</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </detail>
+                    </table>
+                </cell>
+                <cell id="16">
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                    <label id="40">
+                        <property name="fontFamily">"FontAwesome"</property>
+                        <property name="fontSize">58pt</property>
+                        <property name="color">#FFFFFF</property>
+                        <text-property name="text"></text-property>
+                    </label>
+                </cell>
+            </row>
+        </grid>
+        <grid id="95">
+            <property name="height">1.5625in</property>
+            <property name="width">4in</property>
+            <expression name="bookmark" type="javascript">"PROJECTSGADGET"</expression>
+            <column id="96"/>
+            <column id="97"/>
+            <row id="98">
+                <property name="backgroundColor">#3E9EFF</property>
+                <property name="height">1.5in</property>
+                <cell id="99">
+                    <property name="verticalAlign">middle</property>
+                    <table id="100">
+                        <list-property name="userProperties">
+                            <structure>
+                                <property name="name">__ac_group_collapse_level</property>
+                                <property name="type">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="fontFamily">"Lato"</property>
+                        <property name="width">2.5in</property>
+                        <property name="dataSet">Projects by Status</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Status</property>
+                                <text-property name="displayName">Status</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Status"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">Number of Projects</property>
+                                <text-property name="displayName">Number of Projects</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Number of Projects"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">total projects</property>
+                                <property name="dataType">float</property>
+                                <property name="aggregateFunction">SUM</property>
+                                <list-property name="arguments">
+                                    <structure>
+                                        <property name="name">Expression</property>
+                                        <expression name="value" type="javascript">row["Number of Projects"]</expression>
+                                    </structure>
+                                </list-property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                            <structure>
+                                <property name="name">Grouptotalprojects</property>
+                                <property name="dataType">float</property>
+                                <simple-property-list name="aggregateOn">
+                                    <value>NewTableGroup1</value>
+                                </simple-property-list>
+                                <property name="aggregateFunction">SUM</property>
+                                <list-property name="arguments">
+                                    <structure>
+                                        <property name="name">Expression</property>
+                                        <expression name="value" type="javascript">row["Number of Projects"]</expression>
+                                    </structure>
+                                </list-property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <column id="111">
+                            <property name="textAlign">left</property>
+                            <property name="width">200px</property>
+                        </column>
+                        <column id="112"/>
+                        <header>
+                            <row id="101">
+                                <property name="fontSize">24pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="color">#FFFFFF</property>
+                                <cell id="102">
+                                    <property name="colSpan">1</property>
+                                    <property name="rowSpan">1</property>
+                                    <property name="paddingLeft">10pt</property>
+                                    <label id="103">
+                                        <property name="fontSize">24pt</property>
+                                        <property name="fontWeight">bold</property>
+                                        <property name="textAlign">left</property>
+                                        <text-property name="text">Projects:</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="104">
+                                    <data id="119">
+                                        <property name="textAlign">right</property>
+                                        <property name="resultSetColumn">total projects</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                        <group id="120">
+                            <property name="groupName">NewTableGroup1</property>
+                            <expression name="keyExpr" type="javascript">row["Status"]</expression>
+                            <structure name="toc">
+                                <expression name="expressionValue" type="javascript">row["Status"]</expression>
+                            </structure>
+                            <property name="hideDetail">false</property>
+                            <header>
+                                <row id="121">
+                                    <property name="color">#FFFFFF</property>
+                                    <property name="textAlign">right</property>
+                                    <cell id="122">
+                                        <property name="paddingLeft">10pt</property>
+                                        <data id="127">
+                                            <property name="fontWeight">bold</property>
+                                            <property name="resultSetColumn">Status</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="123">
+                                        <data id="128">
+                                            <property name="fontWeight">bold</property>
+                                            <property name="resultSetColumn">Grouptotalprojects</property>
+                                        </data>
+                                    </cell>
+                                </row>
+                            </header>
+                        </group>
+                    </table>
+                </cell>
+                <cell id="113">
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                    <label id="114">
+                        <property name="fontFamily">"FontAwesome"</property>
+                        <property name="fontSize">58pt</property>
+                        <property name="color">#FFFFFF</property>
+                        <text-property name="text"></text-property>
+                    </label>
+                </cell>
+            </row>
+        </grid>
+    </body>
+    <property name="pageVariables">
+        <variable-element name="Script_fontAwesome">
+            <expression name="value" type="javascript">"http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"</expression>
+            <property name="type">report</property>
+        </variable-element>
+        <variable-element name="Script_Lato">
+            <expression name="value" type="javascript">"http://fonts.googleapis.com/css?family=Lato"</expression>
+            <property name="type">report</property>
+        </variable-element>
+    </property>
+</report>
