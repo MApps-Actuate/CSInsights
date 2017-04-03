@@ -1,0 +1,4209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems3.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <data-sources>
+        <data-mart-data-source name="NewDataMartDataSource" id="967">
+            <property name="datamartURL">Data Objects/CSInsights Data Object</property>
+            <property name="datamartVersion">-1</property>
+            <property name="accessType">latest</property>
+        </data-mart-data-source>
+    </data-sources>
+    <data-sets>
+        <data-mart-data-set name="NewDataMartDataSource::Todays Activities" id="968">
+            <property name="dataSource">NewDataMartDataSource</property>
+            <property name="dataObject">Todays Activities</property>
+        </data-mart-data-set>
+    </data-sets>
+    <themes>
+        <report-item-theme type="Crosstab" name="modern-crosstab-ThemesReportItems3" id="31">
+            <text-property name="displayName">Modern</text-property>
+            <styles>
+                <style name="crosstab" id="32">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-header" id="12">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="borderBottomColor">#BBBBBB</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#BBBBBB</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#BBBBBB</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#BBBBBB</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="crosstab-detail" id="901">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="borderBottomColor">#BBBBBB</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#BBBBBB</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#BBBBBB</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#BBBBBB</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="textAlign">right</property>
+                </style>
+                <style name="crosstab-row-header" id="902">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="textAlign">left</property>
+                </style>
+                <style name="crosstab-column-sub-total" id="903">
+                    <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                </style>
+                <style name="crosstab-row-sub-total" id="923">
+                    <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                </style>
+                <style name="crosstab-column-grand-total" id="924">
+                    <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                </style>
+                <style name="crosstab-row-grand-total" id="925">
+                    <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Crosstab" name="clean blue-crosstab-ThemesReportItems3" id="600">
+            <text-property name="displayName">Clean Blue</text-property>
+            <styles>
+                <style name="crosstab" id="601">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-header" id="602">
+                    <property name="backgroundColor">#66B0D1</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#353535</property>
+                    <property name="borderBottomColor">#DDDDDD</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DDDDDD</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DDDDDD</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                </style>
+                <style name="crosstab-row-sub-total" id="603">
+                    <property name="backgroundColor">#D3E8F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-sub-total" id="604">
+                    <property name="backgroundColor">#D3E8F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-grand-total" id="605">
+                    <property name="backgroundColor">#D3E8F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-grand-total" id="606">
+                    <property name="backgroundColor">#D3E8F1</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-header" id="607">
+                    <property name="backgroundColor">#66B0D1</property>
+                    <property name="textAlign">left</property>
+                </style>
+                <style name="crosstab-detail" id="608">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="borderBottomColor">#DDDDDD</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DDDDDD</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DDDDDD</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DDDDDD</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="textAlign">right</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Crosstab" name="warm red-crosstab-ThemesReportItems3" id="610">
+            <text-property name="displayName">Warm Red</text-property>
+            <styles>
+                <style name="crosstab" id="611">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-header" id="612">
+                    <property name="backgroundColor">#DF5E34</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="borderBottomColor">#DDDDDD</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DDDDDD</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DDDDDD</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                </style>
+                <style name="crosstab-row-sub-total" id="613">
+                    <property name="backgroundColor">#FAC9BA</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-sub-total" id="614">
+                    <property name="backgroundColor">#FAC9BA</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-grand-total" id="615">
+                    <property name="backgroundColor">#FAC9BA</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-grand-total" id="616">
+                    <property name="backgroundColor">#FAC9BA</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-header" id="617">
+                    <property name="backgroundColor">#DF5E34</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="textAlign">left</property>
+                </style>
+                <style name="crosstab-detail" id="618">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="borderBottomColor">#DDDDDD</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DDDDDD</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DDDDDD</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DDDDDD</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="textAlign">right</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Crosstab" name="grayscale-crosstab-ThemesReportItems3" id="904">
+            <text-property name="displayName">Grayscale</text-property>
+            <styles>
+                <style name="crosstab" id="905">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-header" id="906">
+                    <property name="backgroundColor">#353535</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="borderBottomColor">#BBBBBB</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#BBBBBB</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#BBBBBB</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                </style>
+                <style name="crosstab-row-sub-total" id="907">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-sub-total" id="908">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-grand-total" id="909">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-column-grand-total" id="910">
+                    <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="fontStyle">italic</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="crosstab-row-header" id="911">
+                    <property name="backgroundColor">#777777</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="textAlign">left</property>
+                </style>
+                <style name="crosstab-detail" id="912">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="borderBottomColor">#BBBBBB</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#BBBBBB</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#BBBBBB</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#BBBBBB</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="textAlign">right</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Chart" name="Modern-ThemesReportItems3" id="945">
+            <xml-property name="customValues"><![CDATA[<type>1</type><ActuateChart version="2.6.1">
+ <ChartWithAxes version="2.6.1" type="Bar Chart" subType="Side-by-side" unitSpacing="15.0">
+  <block>
+   <children _type="TitleBlock" anchor="7">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <label>
+     <caption>
+      <font name="Tahoma" size="14.0" bold="false"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+   </children>
+   <children _type="Plot">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+   </children>
+   <children _type="Legend" itemType="0" showValue="false">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+    <text>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </text>
+    <separator>
+     <color _nil="1"/>
+    </separator>
+    <title>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+   </children>
+   <outline>
+    <color _nil="1"/>
+   </outline>
+  </block>
+  <extendedProperties name="enable.area.alt" value="false"/>
+  <extendedProperties name="enable.drill.category" value="true"/>
+  <extendedProperties name="enable.drill.series" value="true"/>
+  <extendedProperties name="theme.withoutaxes" value=""/>
+  <extendedProperties name="jschart.animation" value="true"/>
+  <extendedProperties name="jschart.client.script" value="beforeGeneration: function(options)&amp;#13;&amp;#10;{&amp;#13;&amp;#10;    var pointFormat = &amp;#039;{series.name}: {point.y}&amp;#039;;&amp;#13;&amp;#10;    if(options.series &amp;amp;&amp;amp; options.series[0] &amp;amp;&amp;amp; options.series[0].type===&amp;#039;pie&amp;#039;){&amp;#13;&amp;#10;        pointFormat = &amp;#039;{point.y} ({point.percentage:.2f}%)&amp;#039;;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;    options.tooltip={&amp;#13;&amp;#10;        animation:false,&amp;#13;&amp;#10;        backgroundColor: &amp;quot;#fff&amp;quot;,&amp;#13;&amp;#10;        borderRadius: 0,&amp;#13;&amp;#10;        borderColor: &amp;quot;#e1e1e1&amp;quot;,&amp;#13;&amp;#10;        borderWidth: 1,&amp;#13;&amp;#10;        style: {&amp;#13;&amp;#10;            color:&amp;quot;#363636&amp;quot;,&amp;#13;&amp;#10;            fontSize: &amp;quot;16px&amp;quot;,&amp;#13;&amp;#10;            fontWeight: 400,&amp;#13;&amp;#10;            padding: &amp;quot;12px&amp;quot;&amp;#13;&amp;#10;        },&amp;#13;&amp;#10;        useHTML: true,&amp;#13;&amp;#10;        headerFormat: &amp;#039;&amp;lt;div style=&amp;quot; color:#363636;font-size: 16px;font-weight: 400;&amp;quot;&amp;gt;{point.key}&amp;lt;/div&amp;gt;&amp;#039;,&amp;#13;&amp;#10;        pointFormat: &amp;#039;&amp;lt;div style=&amp;quot; font-size: 12px;font-weight: 600;margin-top: 4px;&amp;quot;&amp;gt;&amp;#039;+pointFormat+&amp;#039;&amp;lt;/div&amp;gt;&amp;#039;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;}"/>
+  <emptyMessage>
+   <caption value="This chart contains no data."/>
+   <background _body=",64,127,127,127"/>
+   <outline>
+    <color _body=",128,127,127,127"/>
+   </outline>
+  </emptyMessage>
+  <axes>
+   <title>
+    <caption>
+     <font name="Tahoma"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </title>
+   <associatedAxes primaryAxis="true">
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <seriesPalette>
+      <entries _body=",255,158,204,76"/>
+      <entries _body=",255,229,107,46"/>
+      <entries _body=",255,102,176,209"/>
+      <entries _body=",255,244,215,96"/>
+      <entries _body=",255,201,17,47"/>
+      <entries _body=",255,46,152,140"/>
+      <entries _body=",255,244,172,69"/>
+      <entries _body=",255,53,120,173"/>
+      <entries _body=",255,242,150,130"/>
+      <entries _body=",255,44,142,60"/>
+     </seriesPalette>
+     <series _type="BarSeries" seriesIdentifier="" riser="0">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataDefinition definition=""/>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <riserOutline _body=",0,255,255,255"/>
+     </series>
+     <series _type="LineSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes thickness="4">
+       <color _nil="1"/>
+      </lineAttributes>
+      <shadowColor _body=",0,255,255,255"/>
+     </series>
+     <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes visible="false">
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="PieSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="0"/>
+      </dataPoint>
+      <title>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </title>
+      <leaderLineAttributes visible="true">
+       <color _body=",255,85,85,85"/>
+      </leaderLineAttributes>
+      <sliceOutline _body=",255,255,255,255"/>
+     </series>
+     <series _type="DialSeries" seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <dial>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+       <majorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </majorGrid>
+       <minorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </minorGrid>
+       <label>
+        <caption>
+         <font name="Tahoma"/>
+         <color _body=",255,85,85,85"/>
+        </caption>
+        <background _nil="1"/>
+        <outline>
+         <color _nil="1"/>
+        </outline>
+       </label>
+      </dial>
+      <needle>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+      </needle>
+     </series>
+     <series _type="ScatterSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers type="3" size="3">
+       <outline visible="false"/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="StockSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+     </series>
+     <series _type="BubbleSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <accLineAttributes>
+       <color _nil="1"/>
+      </accLineAttributes>
+     </series>
+     <series _type="DifferenceSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <negativeMarkers>
+       <outline/>
+      </negativeMarkers>
+      <negativeLineAttributes>
+       <color _nil="1"/>
+      </negativeLineAttributes>
+     </series>
+     <series _type="GanttSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <connectionLine>
+       <color _nil="1"/>
+      </connectionLine>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+      <decorationLabel>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </decorationLabel>
+     </series>
+     <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true">
+      <label>
+       <caption>
+        <font name="Tahoma">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <marker type="3" size="3" visible="true">
+       <outline/>
+      </marker>
+      <lineAttributes/>
+      <webLineAttributes>
+       <color _body=",255,85,85,85"/>
+      </webLineAttributes>
+      <webLabel>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </webLabel>
+      <catLabel>
+       <caption>
+        <font name="Tahoma">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </catLabel>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _nil="1"/>
+    </origin>
+   </associatedAxes>
+   <ancillaryAxes>
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <series seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _type="NumberDataElement" value="0.0"/>
+    </origin>
+   </ancillaryAxes>
+   <seriesDefinitions>
+    <query definition=""/>
+    <seriesPalette>
+     <entries _body=",255,158,204,76"/>
+     <entries _body=",255,229,107,46"/>
+     <entries _body=",255,102,176,209"/>
+     <entries _body=",255,244,215,96"/>
+     <entries _body=",255,201,17,47"/>
+     <entries _body=",255,46,152,140"/>
+     <entries _body=",255,244,172,69"/>
+     <entries _body=",255,53,120,173"/>
+     <entries _body=",255,242,150,130"/>
+     <entries _body=",255,44,142,60"/>
+    </seriesPalette>
+    <series seriesIdentifier="">
+     <label>
+      <background _nil="1"/>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+     </label>
+     <dataDefinition definition=""/>
+     <dataPoint separator=", ">
+      <components type="1"/>
+     </dataPoint>
+     <curveFitting _nil="1"/>
+    </series>
+   </seriesDefinitions>
+   <lineAttributes>
+    <color _body=",255,85,85,85"/>
+   </lineAttributes>
+   <label>
+    <caption>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </label>
+   <majorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </majorGrid>
+   <minorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </minorGrid>
+   <origin>
+    <value _nil="1"/>
+   </origin>
+  </axes>
+  <rotation>
+   <angles/>
+  </rotation>
+ </ChartWithAxes>
+</ActuateChart>]]></xml-property>
+        </report-item-theme>
+        <report-item-theme type="Chart" name="Clean Blue-ThemesReportItems3" id="937">
+            <xml-property name="customValues"><![CDATA[<type>1</type><ActuateChart version="2.6.1">
+ <ChartWithAxes version="2.6.1" type="Bar Chart" subType="Side-by-side" unitSpacing="15.0">
+  <block>
+   <children _type="TitleBlock" anchor="7">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <label>
+     <caption>
+      <font name="Tahoma" size="14.0" bold="false"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+   </children>
+   <children _type="Plot">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+   </children>
+   <children _type="Legend" itemType="0" showValue="false">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+    <text>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </text>
+    <separator>
+     <color _nil="1"/>
+    </separator>
+    <title>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+   </children>
+   <outline>
+    <color _nil="1"/>
+   </outline>
+  </block>
+  <extendedProperties name="enable.area.alt" value="false"/>
+  <extendedProperties name="enable.drill.category" value="true"/>
+  <extendedProperties name="enable.drill.series" value="true"/>
+  <extendedProperties name="theme.withoutaxes" value=""/>
+  <extendedProperties name="jschart.animation" value="true"/>
+  <extendedProperties name="jschart.client.script" value="beforeGeneration: function(options)&amp;#13;&amp;#10;{&amp;#13;&amp;#10;    var pointFormat = &amp;#039;{series.name}: {point.y}&amp;#039;;&amp;#13;&amp;#10;    if(options.series &amp;amp;&amp;amp; options.series[0] &amp;amp;&amp;amp; options.series[0].type===&amp;#039;pie&amp;#039;){&amp;#13;&amp;#10;        pointFormat = &amp;#039;{point.y} ({point.percentage:.2f}%)&amp;#039;;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;    options.tooltip={&amp;#13;&amp;#10;        animation:false,&amp;#13;&amp;#10;        backgroundColor: &amp;quot;#fff&amp;quot;,&amp;#13;&amp;#10;        borderRadius: 0,&amp;#13;&amp;#10;        borderColor: &amp;quot;#e1e1e1&amp;quot;,&amp;#13;&amp;#10;        borderWidth: 1,&amp;#13;&amp;#10;        style: {&amp;#13;&amp;#10;            color:&amp;quot;#363636&amp;quot;,&amp;#13;&amp;#10;            fontSize: &amp;quot;16px&amp;quot;,&amp;#13;&amp;#10;            fontWeight: 400,&amp;#13;&amp;#10;            padding: &amp;quot;12px&amp;quot;&amp;#13;&amp;#10;        },&amp;#13;&amp;#10;        useHTML: true,&amp;#13;&amp;#10;        headerFormat: &amp;#039;&amp;lt;div style=&amp;quot; color:#363636;font-size: 16px;font-weight: 400;&amp;quot;&amp;gt;{point.key}&amp;lt;/div&amp;gt;&amp;#039;,&amp;#13;&amp;#10;        pointFormat: &amp;#039;&amp;lt;div style=&amp;quot; font-size: 12px;font-weight: 600;margin-top: 4px;&amp;quot;&amp;gt;&amp;#039;+pointFormat+&amp;#039;&amp;lt;/div&amp;gt;&amp;#039;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;}"/>
+  <emptyMessage>
+   <caption value="This chart contains no data."/>
+   <background _body=",64,127,127,127"/>
+   <outline>
+    <color _body=",128,127,127,127"/>
+   </outline>
+  </emptyMessage>
+  <axes>
+   <title>
+    <caption>
+     <font name="Tahoma"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </title>
+   <associatedAxes primaryAxis="true">
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <seriesPalette>
+      <entries _body=",255,102,176,209"/>
+      <entries _body=",255,53,120,173"/>
+      <entries _body=",255,158,204,76"/>
+      <entries _body=",255,46,152,140"/>
+      <entries _body=",255,44,142,60"/>
+      <entries _body=",255,140,234,156"/>
+      <entries _body=",255,0,83,119"/>
+      <entries _body=",255,147,214,226"/>
+      <entries _body=",255,12,107,23"/>
+      <entries _body=",255,117,198,177"/>
+     </seriesPalette>
+     <series _type="BarSeries" seriesIdentifier="" riser="0">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataDefinition definition=""/>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <riserOutline _body=",0,255,255,255"/>
+     </series>
+     <series _type="LineSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes thickness="4">
+       <color _nil="1"/>
+      </lineAttributes>
+      <shadowColor _body=",0,255,255,255"/>
+     </series>
+     <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes visible="false">
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="PieSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="0"/>
+      </dataPoint>
+      <title>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </title>
+      <leaderLineAttributes visible="true">
+       <color _body=",255,85,85,85"/>
+      </leaderLineAttributes>
+      <sliceOutline _body=",255,255,255,255"/>
+     </series>
+     <series _type="DialSeries" seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <dial>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+       <majorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _body=",255,85,85,85"/>
+        </tickAttributes>
+       </majorGrid>
+       <minorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </minorGrid>
+       <label>
+        <caption>
+         <font name="Tahoma" size="10.0"/>
+         <color _body=",255,85,85,85"/>
+        </caption>
+        <background _nil="1"/>
+        <outline>
+         <color _nil="1"/>
+        </outline>
+       </label>
+      </dial>
+      <needle>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+      </needle>
+     </series>
+     <series _type="ScatterSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers type="3" size="3" visible="true">
+       <outline visible="false"/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="StockSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <lineAttributes>
+       <color _body=",255,85,85,85"/>
+      </lineAttributes>
+     </series>
+     <series _type="BubbleSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <shadowColor _body=",0,255,255,255"/>
+      <accLineAttributes>
+       <color _nil="1"/>
+      </accLineAttributes>
+     </series>
+     <series _type="DifferenceSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <negativeMarkers>
+       <outline/>
+      </negativeMarkers>
+      <negativeLineAttributes>
+       <color _nil="1"/>
+      </negativeLineAttributes>
+     </series>
+     <series _type="GanttSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <connectionLine>
+       <color _nil="1"/>
+      </connectionLine>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+      <decorationLabel>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </decorationLabel>
+     </series>
+     <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true" showWebLabels="false" fillPolys="false">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline visible="false">
+        <color _body=",255,255,0,255"/>
+       </outline>
+       <insets/>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <marker type="3" size="4">
+       <outline/>
+      </marker>
+      <lineAttributes visible="true">
+       <color _body=",255,85,85,85"/>
+      </lineAttributes>
+      <webLineAttributes>
+       <color _body=",255,85,85,85"/>
+      </webLineAttributes>
+      <webLabel>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </webLabel>
+      <catLabel>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </catLabel>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _nil="1"/>
+    </origin>
+   </associatedAxes>
+   <ancillaryAxes>
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <series seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _type="NumberDataElement" value="0.0"/>
+    </origin>
+   </ancillaryAxes>
+   <seriesDefinitions>
+    <query definition=""/>
+    <seriesPalette>
+     <entries _body=",255,102,176,209"/>
+     <entries _body=",255,53,120,173"/>
+     <entries _body=",255,158,204,76"/>
+     <entries _body=",255,46,152,140"/>
+     <entries _body=",255,44,142,60"/>
+     <entries _body=",255,140,234,156"/>
+     <entries _body=",255,0,83,119"/>
+     <entries _body=",255,147,214,226"/>
+     <entries _body=",255,12,107,23"/>
+     <entries _body=",255,117,198,177"/>
+    </seriesPalette>
+    <series seriesIdentifier="">
+     <label>
+      <background _nil="1"/>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+     </label>
+     <dataDefinition definition=""/>
+     <dataPoint separator=", ">
+      <components type="1"/>
+     </dataPoint>
+     <curveFitting _nil="1"/>
+    </series>
+   </seriesDefinitions>
+   <lineAttributes>
+    <color _body=",255,85,85,85"/>
+   </lineAttributes>
+   <label>
+    <caption>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </label>
+   <majorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </majorGrid>
+   <minorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </minorGrid>
+   <origin>
+    <value _nil="1"/>
+   </origin>
+  </axes>
+  <rotation>
+   <angles/>
+  </rotation>
+ </ChartWithAxes>
+</ActuateChart>]]></xml-property>
+        </report-item-theme>
+        <report-item-theme type="Chart" name="Warm Red-ThemesReportItems3" id="942">
+            <xml-property name="customValues"><![CDATA[<type>1</type><ActuateChart version="2.6.1">
+ <ChartWithAxes version="2.6.1" type="Bar Chart" subType="Side-by-side" unitSpacing="15.0">
+  <block>
+   <children _type="TitleBlock" anchor="7">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <label>
+     <caption>
+      <font name="Trebuchet MS" size="14.0" bold="false"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+   </children>
+   <children _type="Plot">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+   </children>
+   <children _type="Legend" itemType="0" showValue="false">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+    <text>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </text>
+    <separator>
+     <color _nil="1"/>
+    </separator>
+    <title>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+   </children>
+   <outline>
+    <color _nil="1"/>
+   </outline>
+  </block>
+  <extendedProperties name="enable.area.alt" value="false"/>
+  <extendedProperties name="enable.drill.category" value="true"/>
+  <extendedProperties name="enable.drill.series" value="true"/>
+  <extendedProperties name="theme.withoutaxes" value=""/>
+  <extendedProperties name="jschart.animation" value="true"/>
+  <extendedProperties name="jschart.client.script" value="beforeGeneration: function(options)&amp;#13;&amp;#10;{&amp;#13;&amp;#10;    var pointFormat = &amp;#039;{series.name}: {point.y}&amp;#039;;&amp;#13;&amp;#10;    if(options.series &amp;amp;&amp;amp; options.series[0] &amp;amp;&amp;amp; options.series[0].type===&amp;#039;pie&amp;#039;){&amp;#13;&amp;#10;        pointFormat = &amp;#039;{point.y} ({point.percentage:.2f}%)&amp;#039;;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;    options.tooltip={&amp;#13;&amp;#10;        animation:false,&amp;#13;&amp;#10;        backgroundColor: &amp;quot;#fff&amp;quot;,&amp;#13;&amp;#10;        borderRadius: 0,&amp;#13;&amp;#10;        borderColor: &amp;quot;#e1e1e1&amp;quot;,&amp;#13;&amp;#10;        borderWidth: 1,&amp;#13;&amp;#10;        style: {&amp;#13;&amp;#10;            color:&amp;quot;#363636&amp;quot;,&amp;#13;&amp;#10;            fontSize: &amp;quot;16px&amp;quot;,&amp;#13;&amp;#10;            fontWeight: 400,&amp;#13;&amp;#10;            padding: &amp;quot;12px&amp;quot;&amp;#13;&amp;#10;        },&amp;#13;&amp;#10;        useHTML: true,&amp;#13;&amp;#10;        headerFormat: &amp;#039;&amp;lt;div style=&amp;quot; color:#363636;font-size: 16px;font-weight: 400;&amp;quot;&amp;gt;{point.key}&amp;lt;/div&amp;gt;&amp;#039;,&amp;#13;&amp;#10;        pointFormat: &amp;#039;&amp;lt;div style=&amp;quot; font-size: 12px;font-weight: 600;margin-top: 4px;&amp;quot;&amp;gt;&amp;#039;+pointFormat+&amp;#039;&amp;lt;/div&amp;gt;&amp;#039;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;}"/>
+  <emptyMessage>
+   <caption value="This chart contains no data."/>
+   <background _body=",64,127,127,127"/>
+   <outline>
+    <color _body=",128,127,127,127"/>
+   </outline>
+  </emptyMessage>
+  <axes>
+   <title>
+    <caption>
+     <font name="Trebuchet MS"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </title>
+   <associatedAxes primaryAxis="true">
+    <title>
+     <caption>
+      <font name="Trebuchet MS"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <seriesPalette>
+      <entries _body=",255,223,94,52"/>
+      <entries _body=",255,244,172,69"/>
+      <entries _body=",255,201,17,47"/>
+      <entries _body=",255,242,150,130"/>
+      <entries _body=",255,244,215,96"/>
+      <entries _body=",255,147,18,5"/>
+      <entries _body=",255,214,94,81"/>
+      <entries _body=",255,132,32,73"/>
+      <entries _body=",255,242,140,70"/>
+      <entries _body=",255,178,80,118"/>
+     </seriesPalette>
+     <series _type="BarSeries" seriesIdentifier="" riser="0">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataDefinition definition=""/>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <riserOutline _body=",0,255,255,255"/>
+     </series>
+     <series _type="LineSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes thickness="4">
+       <color _nil="1"/>
+      </lineAttributes>
+      <shadowColor _body=",0,255,255,255"/>
+     </series>
+     <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes visible="false">
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="PieSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Trebuchet MS" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="0"/>
+      </dataPoint>
+      <title>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </title>
+      <leaderLineAttributes visible="true">
+       <color _body=",255,85,85,85"/>
+      </leaderLineAttributes>
+      <sliceOutline _body=",255,255,255,255"/>
+     </series>
+     <series _type="DialSeries" seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <dial>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+       <majorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </majorGrid>
+       <minorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </minorGrid>
+       <label>
+        <caption>
+         <font name="Trebuchet MS" size="10.0"/>
+         <color _body=",255,85,85,85"/>
+        </caption>
+        <background _nil="1"/>
+        <outline>
+         <color _nil="1"/>
+        </outline>
+       </label>
+      </dial>
+      <needle>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+      </needle>
+     </series>
+     <series _type="ScatterSeries" seriesIdentifier="" paletteLineColor="true">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers type="3" size="3">
+       <outline visible="false"/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="StockSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <lineAttributes>
+       <color _body=",255,85,85,85"/>
+      </lineAttributes>
+     </series>
+     <series _type="BubbleSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <accLineAttributes>
+       <color _nil="1"/>
+      </accLineAttributes>
+     </series>
+     <series _type="DifferenceSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Trebuchet MS"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <negativeMarkers>
+       <outline/>
+      </negativeMarkers>
+      <negativeLineAttributes>
+       <color _nil="1"/>
+      </negativeLineAttributes>
+     </series>
+     <series _type="GanttSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <connectionLine>
+       <color _nil="1"/>
+      </connectionLine>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+      <decorationLabel>
+       <caption>
+        <font name="Tahoma" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </decorationLabel>
+     </series>
+     <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true">
+      <label>
+       <caption>
+        <font name="Trebuchet MS">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <marker size="3">
+       <outline/>
+      </marker>
+      <lineAttributes/>
+      <webLineAttributes>
+       <color _body=",255,85,85,85"/>
+      </webLineAttributes>
+      <webLabel>
+       <caption>
+        <font name="Trebuchet MS">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </webLabel>
+      <catLabel>
+       <caption>
+        <font name="Trebuchet MS" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </catLabel>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Trebuchet MS" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _nil="1"/>
+    </origin>
+   </associatedAxes>
+   <ancillaryAxes>
+    <title>
+     <caption>
+      <font name="Trebuchet MS"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <series seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Trebuchet MS" size="12.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _type="NumberDataElement" value="0.0"/>
+    </origin>
+   </ancillaryAxes>
+   <seriesDefinitions>
+    <query definition=""/>
+    <seriesPalette>
+     <entries _body=",255,223,94,52"/>
+     <entries _body=",255,244,172,69"/>
+     <entries _body=",255,201,17,47"/>
+     <entries _body=",255,242,150,130"/>
+     <entries _body=",255,244,215,96"/>
+     <entries _body=",255,147,18,5"/>
+     <entries _body=",255,214,94,81"/>
+     <entries _body=",255,132,32,73"/>
+     <entries _body=",255,242,140,70"/>
+     <entries _body=",255,178,80,118"/>
+    </seriesPalette>
+    <series seriesIdentifier="">
+     <label>
+      <background _nil="1"/>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+     </label>
+     <dataDefinition definition=""/>
+     <dataPoint separator=", ">
+      <components type="1"/>
+     </dataPoint>
+     <curveFitting _nil="1"/>
+    </series>
+   </seriesDefinitions>
+   <lineAttributes>
+    <color _body=",255,85,85,85"/>
+   </lineAttributes>
+   <label>
+    <caption>
+     <font name="Trebuchet MS" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </label>
+   <majorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </majorGrid>
+   <minorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </minorGrid>
+   <origin>
+    <value _nil="1"/>
+   </origin>
+  </axes>
+  <rotation>
+   <angles/>
+  </rotation>
+ </ChartWithAxes>
+</ActuateChart>]]></xml-property>
+        </report-item-theme>
+        <report-item-theme type="Chart" name="Grayscale-ThemesReportItems3" id="943">
+            <xml-property name="customValues"><![CDATA[<type>1</type><ActuateChart version="2.6.1">
+ <ChartWithAxes version="2.6.1" type="Bar Chart" subType="Side-by-side" unitSpacing="15.0">
+  <block>
+   <children _type="TitleBlock" anchor="7">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <label>
+     <caption>
+      <font name="Tahoma" size="14.0" bold="false"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+   </children>
+   <children _type="Plot">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+   </children>
+   <children _type="Legend" itemType="0" showValue="false">
+    <outline>
+     <color _nil="1"/>
+    </outline>
+    <clientArea>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </clientArea>
+    <text>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </text>
+    <separator>
+     <color _nil="1"/>
+    </separator>
+    <title>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+   </children>
+   <outline>
+    <color _nil="1"/>
+   </outline>
+  </block>
+  <extendedProperties name="enable.area.alt" value="false"/>
+  <extendedProperties name="enable.drill.category" value="true"/>
+  <extendedProperties name="enable.drill.series" value="true"/>
+  <extendedProperties name="theme.withoutaxes" value=""/>
+  <extendedProperties name="jschart.animation" value="true"/>
+  <extendedProperties name="jschart.client.script" value="beforeGeneration: function(options)&amp;#13;&amp;#10;{&amp;#13;&amp;#10;    var pointFormat = &amp;#039;{series.name}: {point.y}&amp;#039;;&amp;#13;&amp;#10;    if(options.series &amp;amp;&amp;amp; options.series[0] &amp;amp;&amp;amp; options.series[0].type===&amp;#039;pie&amp;#039;){&amp;#13;&amp;#10;        pointFormat = &amp;#039;{point.y} ({point.percentage:.2f}%)&amp;#039;;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;    options.tooltip={&amp;#13;&amp;#10;        animation:false,&amp;#13;&amp;#10;        backgroundColor: &amp;quot;#fff&amp;quot;,&amp;#13;&amp;#10;        borderRadius: 0,&amp;#13;&amp;#10;        borderColor: &amp;quot;#e1e1e1&amp;quot;,&amp;#13;&amp;#10;        borderWidth: 1,&amp;#13;&amp;#10;        style: {&amp;#13;&amp;#10;            color:&amp;quot;#363636&amp;quot;,&amp;#13;&amp;#10;            fontSize: &amp;quot;16px&amp;quot;,&amp;#13;&amp;#10;            fontWeight: 400,&amp;#13;&amp;#10;            padding: &amp;quot;12px&amp;quot;&amp;#13;&amp;#10;        },&amp;#13;&amp;#10;        useHTML: true,&amp;#13;&amp;#10;        headerFormat: &amp;#039;&amp;lt;div style=&amp;quot; color:#363636;font-size: 16px;font-weight: 400;&amp;quot;&amp;gt;{point.key}&amp;lt;/div&amp;gt;&amp;#039;,&amp;#13;&amp;#10;        pointFormat: &amp;#039;&amp;lt;div style=&amp;quot; font-size: 12px;font-weight: 600;margin-top: 4px;&amp;quot;&amp;gt;&amp;#039;+pointFormat+&amp;#039;&amp;lt;/div&amp;gt;&amp;#039;&amp;#13;&amp;#10;    }&amp;#13;&amp;#10;}"/>
+  <emptyMessage>
+   <caption value="This chart contains no data."/>
+   <background _body=",64,127,127,127"/>
+   <outline>
+    <color _body=",128,127,127,127"/>
+   </outline>
+  </emptyMessage>
+  <axes>
+   <title>
+    <caption>
+     <font name="Tahoma"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </title>
+   <associatedAxes primaryAxis="true">
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <seriesPalette>
+      <entries _body=",255,53,53,53"/>
+      <entries _body=",255,195,195,195"/>
+      <entries _body=",255,93,93,93"/>
+      <entries _body=",255,164,164,164"/>
+      <entries _body=",255,74,74,74"/>
+      <entries _body=",255,134,134,134"/>
+      <entries _body=",255,215,215,215"/>
+      <entries _body=",255,53,53,53"/>
+      <entries _body=",255,195,195,195"/>
+      <entries _body=",255,164,164,164"/>
+     </seriesPalette>
+     <series _type="BarSeries" seriesIdentifier="" riser="0">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataDefinition definition=""/>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <riserOutline _body=",0,255,255,255"/>
+     </series>
+     <series _type="LineSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes thickness="4">
+       <color _nil="1"/>
+      </lineAttributes>
+      <shadowColor _body=",0,255,255,255"/>
+     </series>
+     <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers visible="false">
+       <outline/>
+      </markers>
+      <lineAttributes visible="false">
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="PieSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="0"/>
+      </dataPoint>
+      <title>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </title>
+      <leaderLineAttributes visible="true">
+       <color _body=",255,85,85,85"/>
+      </leaderLineAttributes>
+      <sliceOutline _body=",255,255,255,255"/>
+     </series>
+     <series _type="DialSeries" seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <dial>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+       <majorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </majorGrid>
+       <minorGrid>
+        <lineAttributes>
+         <color _nil="1"/>
+        </lineAttributes>
+        <tickAttributes>
+         <color _nil="1"/>
+        </tickAttributes>
+       </minorGrid>
+       <label>
+        <caption>
+         <font name="Tahoma" size="10.0"/>
+         <color _body=",255,85,85,85"/>
+        </caption>
+        <background _nil="1"/>
+        <outline>
+         <color _nil="1"/>
+        </outline>
+       </label>
+      </dial>
+      <needle>
+       <lineAttributes>
+        <color _nil="1"/>
+       </lineAttributes>
+      </needle>
+     </series>
+     <series _type="ScatterSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers type="3" size="3">
+       <outline visible="false"/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+     </series>
+     <series _type="StockSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <lineAttributes>
+       <color _body=",255,85,85,85"/>
+      </lineAttributes>
+     </series>
+     <series _type="BubbleSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <accLineAttributes>
+       <color _nil="1"/>
+      </accLineAttributes>
+     </series>
+     <series _type="DifferenceSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <markers>
+       <outline/>
+      </markers>
+      <lineAttributes>
+       <color _nil="1"/>
+      </lineAttributes>
+      <negativeMarkers>
+       <outline/>
+      </negativeMarkers>
+      <negativeLineAttributes>
+       <color _nil="1"/>
+      </negativeLineAttributes>
+     </series>
+     <series _type="GanttSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+      <connectionLine>
+       <color _nil="1"/>
+      </connectionLine>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+      <decorationLabel>
+       <caption>
+        <font name="Tahoma"/>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </decorationLabel>
+     </series>
+     <series _type="RadarSeries" seriesIdentifier="">
+      <label>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <marker type="3" size="3">
+       <outline/>
+      </marker>
+      <lineAttributes/>
+      <webLineAttributes>
+       <color _body=",255,85,85,85"/>
+      </webLineAttributes>
+      <webLabel>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </webLabel>
+      <catLabel>
+       <caption>
+        <font name="Tahoma" size="10.0">
+         <alignment/>
+        </font>
+        <color _body=",255,85,85,85"/>
+       </caption>
+       <outline/>
+       <insets/>
+      </catLabel>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes visible="false">
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _nil="1"/>
+    </origin>
+   </associatedAxes>
+   <ancillaryAxes>
+    <title>
+     <caption>
+      <font name="Tahoma"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </title>
+    <seriesDefinitions>
+     <query definition=""/>
+     <series seriesIdentifier="">
+      <label>
+       <background _nil="1"/>
+       <outline>
+        <color _nil="1"/>
+       </outline>
+      </label>
+      <dataPoint separator=", ">
+       <components type="1"/>
+      </dataPoint>
+      <curveFitting _nil="1"/>
+     </series>
+    </seriesDefinitions>
+    <lineAttributes>
+     <color _body=",255,85,85,85"/>
+    </lineAttributes>
+    <label>
+     <caption>
+      <font name="Tahoma" size="10.0"/>
+      <color _body=",255,85,85,85"/>
+     </caption>
+     <background _nil="1"/>
+     <outline>
+      <color _nil="1"/>
+     </outline>
+    </label>
+    <majorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </majorGrid>
+    <minorGrid>
+     <lineAttributes>
+      <color _nil="1"/>
+     </lineAttributes>
+     <tickAttributes>
+      <color _nil="1"/>
+     </tickAttributes>
+    </minorGrid>
+    <origin>
+     <value _type="NumberDataElement" value="0.0"/>
+    </origin>
+   </ancillaryAxes>
+   <seriesDefinitions>
+    <query definition=""/>
+    <seriesPalette>
+     <entries _body=",255,53,53,53"/>
+     <entries _body=",255,195,195,195"/>
+     <entries _body=",255,93,93,93"/>
+     <entries _body=",255,164,164,164"/>
+     <entries _body=",255,74,74,74"/>
+     <entries _body=",255,134,134,134"/>
+     <entries _body=",255,215,215,215"/>
+     <entries _body=",255,53,53,53"/>
+     <entries _body=",255,195,195,195"/>
+     <entries _body=",255,164,164,164"/>
+    </seriesPalette>
+    <series seriesIdentifier="">
+     <label>
+      <background _nil="1"/>
+      <outline>
+       <color _nil="1"/>
+      </outline>
+     </label>
+     <dataDefinition definition=""/>
+     <dataPoint separator=", ">
+      <components type="1"/>
+     </dataPoint>
+     <curveFitting _nil="1"/>
+    </series>
+   </seriesDefinitions>
+   <lineAttributes>
+    <color _body=",255,85,85,85"/>
+   </lineAttributes>
+   <label>
+    <caption>
+     <font name="Tahoma" size="10.0"/>
+     <color _body=",255,85,85,85"/>
+    </caption>
+    <background _nil="1"/>
+    <outline>
+     <color _nil="1"/>
+    </outline>
+   </label>
+   <majorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </majorGrid>
+   <minorGrid>
+    <lineAttributes>
+     <color _nil="1"/>
+    </lineAttributes>
+    <tickAttributes visible="false">
+     <color _nil="1"/>
+    </tickAttributes>
+   </minorGrid>
+   <origin>
+    <value _nil="1"/>
+   </origin>
+  </axes>
+  <rotation>
+   <angles/>
+  </rotation>
+ </ChartWithAxes>
+</ActuateChart>]]></xml-property>
+        </report-item-theme>
+        <report-item-theme type="Table" name="Modern Table-ThemesReportItems3" id="947">
+            <styles>
+                <style name="table" id="948">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">8pt</property>
+                    <property name="color">#666666</property>
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-detail-cell" id="949">
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-footer-cell" id="950">
+                    <property name="backgroundColor">#EDEEF3</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#666666</property>
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-group-footer-cell" id="951">
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-group-header-cell" id="952">
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+                <style name="table-header-cell" id="953">
+                    <property name="backgroundColor">#EDEEF3</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#666666</property>
+                    <property name="borderBottomColor">#DADADA</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftColor">#DADADA</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightColor">#DADADA</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopColor">#DADADA</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Table" name="Clean Blue Table-ThemesReportItems3" id="954">
+            <styles>
+                <style name="table" id="955">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                </style>
+                <style name="table-detail-cell" id="958">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="borderTopStyle">none</property>
+                    <property name="borderTopWidth">medium</property>
+                    <property name="textAlign">left</property>
+                    <property name="verticalAlign">bottom</property>
+                </style>
+                <style name="table-footer-cell" id="961">
+                    <property name="backgroundColor">#A7D0E2</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#353535</property>
+                </style>
+                <style name="table-header-cell" id="962">
+                    <property name="backgroundColor">#A7D0E2</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#353535</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Table" name="Warm Red Table-ThemesReportItems3" id="963">
+            <styles>
+                <style name="table-header-cell" id="506">
+                    <property name="backgroundColor">#F59275</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                </style>
+                <style name="table-detail-cell" id="518">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="borderTopStyle">none</property>
+                    <property name="borderTopWidth">medium</property>
+                    <property name="textAlign">left</property>
+                    <property name="verticalAlign">bottom</property>
+                </style>
+                <style name="table-footer-cell" id="521">
+                    <property name="backgroundColor">#F59275</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                </style>
+                <style name="table" id="524">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                </style>
+            </styles>
+        </report-item-theme>
+        <report-item-theme type="Table" name="Grayscale Table-ThemesReportItems3" id="964">
+            <styles>
+                <style name="table-detail-cell" id="845">
+                    <property name="backgroundColor">#FFFFFF</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="color">#353535</property>
+                    <property name="borderTopStyle">none</property>
+                    <property name="borderTopWidth">medium</property>
+                    <property name="textAlign">left</property>
+                    <property name="verticalAlign">bottom</property>
+                </style>
+                <style name="table-footer-cell" id="848">
+                    <property name="backgroundColor">#808080</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                </style>
+                <style name="table-header-cell" id="849">
+                    <property name="backgroundColor">#808080</property>
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                </style>
+                <style name="table" id="895">
+                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontSize">10pt</property>
+                </style>
+            </styles>
+        </report-item-theme>
+    </themes>
+    <body>
+        <text name="a21356c3-32c7-4c1c-8119-39210158e354" id="1061">
+            <text-property name="content"><![CDATA[<div style="width: 300px;"><iframe style="display: block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=53295" width="380" height="240" frameborder="0" scrolling="no"></iframe><a style="text-indent: -9999em;margin: -20px 0 0 0;z-index: 1;height: 20px;position: relative;display: block" href="http://www.willyweather.com/tn/davidson-county/nashville-international-airport.html">Up to date weather for Nashville International Airport</a></div>]]></text-property>
+        </text>
+        <text name="fc56925e-82cc-4f02-9ed4-d56ed3e1c3e91" id="1073">
+            <text-property name="content"><![CDATA[<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;amp;height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=act-mapps%40opentext.com&amp;amp;color=%231B887A&amp;amp;ctz=America%2FLos_Angeles" style="border-width:0" width="380" height="600" frameborder="0" scrolling="no"></iframe>]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="activeTab">5a105aad-451d-4c8f-b360-5d311a3f7c04</property>
+            <property name="tabs">
+                <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
+                    <property name="title">Insights At A Glance</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="Gadget_d281c072-dcca-4d49-a8af-5ae5607345e6" id="22">
+                            <property name="x">18px</property>
+                            <property name="y">198px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">WORKFLOWGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="23">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="24">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b0ab6a19-91c5-4302-be9d-5257bfed8303" id="25">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">TOPDOWNLOADGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="26">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="27">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="f7d977a8-310c-4541-8aae-8cccb96c6fa8" id="6">
+                            <property name="x">10px</property>
+                            <property name="y">182px</property>
+                            <property name="height">150px</property>
+                            <property name="width">383px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">383px</property>
+                            <property name="caption">
+                                <gadget-caption id="8">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="7"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b2ba4f73-1d1e-45c5-a3e6-2ff8e4a8d1da" id="16">
+                            <property name="x">18px</property>
+                            <property name="y">378px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - PROJECTSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="17">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="18">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_5c147355-708a-4296-b80d-661b83bc6ce7" id="19">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - ACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="caption">
+                                <gadget-caption id="20">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="21">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">ACTIVITYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_e229e0e4-5893-4f3b-b800-56577d6e7ea4" id="13">
+                            <property name="x">432px</property>
+                            <property name="y">198px</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - BLOCKEDACCESSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="caption">
+                                <gadget-caption id="14">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="15">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">BLOCKEDACCESSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_97d79074-c830-4145-be0b-31cb36a7beba" id="9">
+                            <property name="x">432px</property>
+                            <property name="y">378px</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - TOPSEARCHESGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="caption">
+                                <gadget-caption id="10">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="11">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">TOPSEARCHESGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_d9be9f87-c5de-4b02-9584-a5f97e06779b" id="28">
+                            <property name="x">846px</property>
+                            <property name="y">18px</property>
+                            <property name="height">506px</property>
+                            <property name="width">662px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - TODAYSACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">506px</property>
+                            <property name="width">662px</property>
+                            <property name="caption">
+                                <gadget-caption id="29">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="30">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsIVGadgets.rptdocument</property>
+                                            <property name="targetBookmark">TODAYSACTIVITYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_459d80c0-3d85-4843-ba3d-9772f34afab6" id="987">
+                            <property name="x">846px</property>
+                            <property name="y">558px</property>
+                            <property name="height">520px</property>
+                            <property name="width">662px</property>
+                            <property name="title">TODAYSACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">9</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">520px</property>
+                            <property name="width">662px</property>
+                            <property name="caption">
+                                <gadget-caption id="988">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="989">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                                            <property name="targetBookmark">CAPACITYFORECAST</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f582fb5a-fba0-4fbd-b4ce-e2138e0c7ff2" id="990">
+                            <property name="x">18px</property>
+                            <property name="y">558px</property>
+                            <property name="height">520px</property>
+                            <property name="width">800px</property>
+                            <property name="title">GLOBALUSERS</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">10</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">520px</property>
+                            <property name="width">800px</property>
+                            <property name="caption">
+                                <gadget-caption id="991">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="992">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                                            <property name="targetBookmark">GLOBALUSERS</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="5a105aad-451d-4c8f-b360-5d311a3f7c04" id="993">
+                    <property name="title">Workflows</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="d76ba226-1f9b-4ada-b522-ee81931a7c14" id="996">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="caption">
+                                <gadget-caption id="998">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="997"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_d281c072-dcca-4d49-a8af-5ae5607345e612" id="999">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">WORKFLOWGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1001">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1000">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f594d9b1-8e22-427f-b0e9-65fa9d8ee984" id="1002">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">WORKFLOWHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1003">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1004">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f594d9b1-8e22-427f-b0e9-65fa9d8ee98412" id="1005">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">WORKFLOWHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1007">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1006">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWEXECGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_2a53fbb6-e678-4006-ae0d-8e0e96357e57" id="1008">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DEPTWORKFLOWGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1009">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1010">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">DEPTWORKFLOWGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_a4bfc37a-60b9-4f8d-b86a-c8ad13538529" id="1011">
+                            <property name="x">1000px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">AVGWORKFLOWDURATIONGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1012">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1013">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">AVGWORKFLOWDURATIONGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="aca79e96-1eb9-4cb0-a59d-239e3176bacc2" id="1059">
+                            <property name="x">18px</property>
+                            <property name="y">198px</property>
+                            <property name="height">228px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Weather</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">228px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1062">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1060">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">a21356c3-32c7-4c1c-8119-39210158e354</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="078dbe38-a643-4025-a114-c8a5697ad8f512" id="1071">
+                            <property name="x">18px</property>
+                            <property name="y">460px</property>
+                            <property name="height">533px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Calendar</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">533px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1074">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1072">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">fc56925e-82cc-4f02-9ed4-d56ed3e1c3e91</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="1ca1b973-35a7-410a-a261-da6aadb76a94" id="1014">
+                    <property name="title">Projects</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="afbabaee-2b1d-4360-bc86-c27514b53453" id="1017">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="caption">
+                                <gadget-caption id="1019">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="1018"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b2ba4f73-1d1e-45c5-a3e6-2ff8e4a8d1da12" id="1020">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - PROJECTSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1022">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1021">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_1076f24e-e954-4336-bf97-7f1dddb354f9" id="1023">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1024">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1025">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_38a1a4df-cac4-4f25-a230-4baec96aa021" id="1026">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTBYDEPTGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1027">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1028">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTBYDEPTGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_69538bf1-9a8a-4442-9bc7-a22aca9d7beb" id="1029">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1030">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1031">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTACTIVITYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_5a3c1459-4fbc-46a2-beaf-ffd1f1e4e8ba" id="1032">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTASSETSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1033">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1034">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTASSETSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="9375524d-081c-4b60-96a4-aa8c8fdf4a43" id="969">
+                    <property name="title">Security and Access</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="d0f7eb6f-95ad-405e-80f3-c108452c8d5d" id="972">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="caption">
+                                <gadget-caption id="974">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="973"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_e229e0e4-5893-4f3b-b800-56577d6e7ea412" id="984">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - BLOCKEDACCESSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="caption">
+                                <gadget-caption id="986">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="985">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">BLOCKEDACCESSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b54e2f31-afab-4e85-a52c-8f402e6255e2" id="1035">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">FAILEDLOGINGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1036">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1037">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">FAILEDLOGINGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_1941cc65-aceb-4c16-a9df-0c51038eaed8" id="1038">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">ACTIVITYHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1039">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1040">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">ACTIVITYHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_4bfa1ada-388b-4b2d-9149-e0c287673b29" id="1041">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">TOPDOWNLOADSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1042">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1043">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_7340cd97-e74f-4245-9c63-b9328907899d" id="1044">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">TOPUSERSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1045">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1046">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">TOPUSERSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="f3be91de-9088-439d-adf2-5a18ea07c104" id="975">
+                    <property name="title">Documents</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="3558dae3-3794-48a3-a2b7-8dcea6f35046" id="978">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="caption">
+                                <gadget-caption id="980">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="979"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b0ab6a19-91c5-4302-be9d-5257bfed830312" id="981">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">TOPDOWNLOADGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="983">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="982">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_8703da9c-5321-49d9-b291-aacf9b72cd47" id="1047">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1048">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1049">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_0185d688-29f4-4aa2-a163-4bd570a63e72" id="1050">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTTYPEGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1051">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1052">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTTYPEGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_164f171d-f623-435b-926e-63eda9d99d28" id="1053">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTCLASSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1054">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1055">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTCLASSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_698ae5a0-2e70-4a2e-9cb2-2c0a1477ce3e" id="1056">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">COMMENTEDDOCSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1057">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1058">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">COMMENTEDDOCSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

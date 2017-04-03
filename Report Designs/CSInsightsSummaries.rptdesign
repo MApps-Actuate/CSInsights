@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
-    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603260016</property>
     <property name="units">in</property>
     <property name="iconFile">/templates/blank_report.gif</property>
     <property name="layoutPreference">auto layout</property>
@@ -1008,13 +1008,26 @@ else
                                     </label>
                                 </cell>
                                 <cell id="176">
-                                    <property name="paddingBottom">10pt</property>
+                                    <property name="paddingBottom">1pt</property>
                                     <property name="verticalAlign">middle</property>
                                     <data id="187">
                                         <property name="fontSize">36pt</property>
                                         <property name="textAlign">right</property>
                                         <property name="resultSetColumn">total violations</property>
                                     </data>
+                                    <label id="1236">
+                                        <property name="fontSize">6pt</property>
+                                        <property name="color">#800000</property>
+                                        <text-property name="text">____________</text-property>
+                                        <list-property name="action">
+                                            <structure>
+                                                <property name="linkType">drill-through</property>
+                                                <property name="reportName">BlockedAccessDetail.rptdocument</property>
+                                                <property name="targetWindow">_blank</property>
+                                                <property name="targetFileType">report-document</property>
+                                            </structure>
+                                        </list-property>
+                                    </label>
                                 </cell>
                             </row>
                         </header>

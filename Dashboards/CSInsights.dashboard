@@ -2776,17 +2776,22 @@
             </styles>
         </report-item-theme>
     </themes>
+    <body>
+        <text name="a21356c3-32c7-4c1c-8119-39210158e354" id="1061">
+            <text-property name="content"><![CDATA[<div style="width: 300px;"><iframe style="display: block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=53295" width="380" height="240" frameborder="0" scrolling="no"></iframe><a style="text-indent: -9999em;margin: -20px 0 0 0;z-index: 1;height: 20px;position: relative;display: block" href="http://www.willyweather.com/tn/davidson-county/nashville-international-airport.html">Up to date weather for Nashville International Airport</a></div>]]></text-property>
+        </text>
+    </body>
     <property name="dashboardView">
         <dashboard id="2">
             <property name="activeTab">180a3b33-87c3-4efd-af27-ac689d7b111c</property>
             <property name="tabs">
                 <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
                     <property name="title">Insights At A Glance</property>
-                    <property name="backgroundImage">/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
                     <property name="freeFormGadgets">
                         <gadget name="Gadget_d281c072-dcca-4d49-a8af-5ae5607345e6" id="22">
-                            <property name="x">10px</property>
-                            <property name="y">182px</property>
+                            <property name="x">18px</property>
+                            <property name="y">198px</property>
                             <property name="height">146px</property>
                             <property name="width">385px</property>
                             <property name="title">WORKFLOWGADGET</property>
@@ -2823,8 +2828,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_b0ab6a19-91c5-4302-be9d-5257bfed8303" id="25">
-                            <property name="x">10px</property>
-                            <property name="y">11px</property>
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
                             <property name="height">146px</property>
                             <property name="width">385px</property>
                             <property name="title">TOPDOWNLOADGADGET</property>
@@ -2880,8 +2885,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_b2ba4f73-1d1e-45c5-a3e6-2ff8e4a8d1da" id="16">
-                            <property name="x">10px</property>
-                            <property name="y">353px</property>
+                            <property name="x">18px</property>
+                            <property name="y">378px</property>
                             <property name="height">146px</property>
                             <property name="width">385px</property>
                             <property name="title">Reportlet - CSInsightsSummaries - PROJECTSGADGET</property>
@@ -2918,8 +2923,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_5c147355-708a-4296-b80d-661b83bc6ce7" id="19">
-                            <property name="x">416px</property>
-                            <property name="y">11px</property>
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
                             <property name="height">146px</property>
                             <property name="width">387px</property>
                             <property name="title">Reportlet - CSInsightsSummaries - ACTIVITYGADGET</property>
@@ -2956,8 +2961,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_e229e0e4-5893-4f3b-b800-56577d6e7ea4" id="13">
-                            <property name="x">416px</property>
-                            <property name="y">182px</property>
+                            <property name="x">432px</property>
+                            <property name="y">198px</property>
                             <property name="height">146px</property>
                             <property name="width">387px</property>
                             <property name="title">Reportlet - CSInsightsSummaries - BLOCKEDACCESSGADGET</property>
@@ -2994,8 +2999,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_97d79074-c830-4145-be0b-31cb36a7beba" id="9">
-                            <property name="x">416px</property>
-                            <property name="y">353px</property>
+                            <property name="x">432px</property>
+                            <property name="y">378px</property>
                             <property name="height">146px</property>
                             <property name="width">387px</property>
                             <property name="title">Reportlet - CSInsightsSummaries - TOPSEARCHESGADGET</property>
@@ -3032,9 +3037,9 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_d9be9f87-c5de-4b02-9584-a5f97e06779b" id="28">
-                            <property name="x">823px</property>
-                            <property name="y">11px</property>
-                            <property name="height">488px</property>
+                            <property name="x">846px</property>
+                            <property name="y">18px</property>
+                            <property name="height">506px</property>
                             <property name="width">662px</property>
                             <property name="title">Reportlet - CSInsightsSummaries - TODAYSACTIVITYGADGET</property>
                             <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
@@ -3042,7 +3047,7 @@
                             <property name="showBorder">false</property>
                             <property name="zIndex">8</property>
                             <property name="showScrollBar">false</property>
-                            <property name="height">488px</property>
+                            <property name="height">506px</property>
                             <property name="width">662px</property>
                             <property name="caption">
                                 <gadget-caption id="29">
@@ -3064,6 +3069,1098 @@
                                         <external-element-ref>
                                             <property name="sourceFile">^/Report Designs/CSInsightsIVGadgets.rptdocument</property>
                                             <property name="targetBookmark">TODAYSACTIVITYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_459d80c0-3d85-4843-ba3d-9772f34afab6" id="987">
+                            <property name="x">846px</property>
+                            <property name="y">558px</property>
+                            <property name="height">520px</property>
+                            <property name="width">662px</property>
+                            <property name="title">TODAYSACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">9</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">520px</property>
+                            <property name="width">662px</property>
+                            <property name="caption">
+                                <gadget-caption id="988">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="989">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                                            <property name="targetBookmark">CAPACITYFORECAST</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f582fb5a-fba0-4fbd-b4ce-e2138e0c7ff2" id="990">
+                            <property name="x">18px</property>
+                            <property name="y">558px</property>
+                            <property name="height">520px</property>
+                            <property name="width">800px</property>
+                            <property name="title">GLOBALUSERS</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">10</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">520px</property>
+                            <property name="width">800px</property>
+                            <property name="caption">
+                                <gadget-caption id="991">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="992">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/CSInsightsCapacityForecast.rptdocument</property>
+                                            <property name="targetBookmark">GLOBALUSERS</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="5a105aad-451d-4c8f-b360-5d311a3f7c04" id="993">
+                    <property name="title">Workflows</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="d76ba226-1f9b-4ada-b522-ee81931a7c14" id="996">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="caption">
+                                <gadget-caption id="998">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="997"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_d281c072-dcca-4d49-a8af-5ae5607345e612" id="999">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">WORKFLOWGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1001">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1000">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f594d9b1-8e22-427f-b0e9-65fa9d8ee984" id="1002">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">WORKFLOWHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1003">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1004">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f594d9b1-8e22-427f-b0e9-65fa9d8ee98412" id="1005">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">WORKFLOWHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1007">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1006">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">WORKFLOWEXECGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_2a53fbb6-e678-4006-ae0d-8e0e96357e57" id="1008">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DEPTWORKFLOWGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1009">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1010">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">DEPTWORKFLOWGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_a4bfc37a-60b9-4f8d-b86a-c8ad13538529" id="1011">
+                            <property name="x">1000px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">AVGWORKFLOWDURATIONGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1012">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1013">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/WORKFLOWS.rptdocument</property>
+                                            <property name="targetBookmark">AVGWORKFLOWDURATIONGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="aca79e96-1eb9-4cb0-a59d-239e3176bacc2" id="1059">
+                            <property name="x">18px</property>
+                            <property name="y">198px</property>
+                            <property name="height">228px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Weather</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">228px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1062">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1060">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">a21356c3-32c7-4c1c-8119-39210158e354</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="1ca1b973-35a7-410a-a261-da6aadb76a94" id="1014">
+                    <property name="title">Projects</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="afbabaee-2b1d-4360-bc86-c27514b53453" id="1017">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">747px</property>
+                            <property name="caption">
+                                <gadget-caption id="1019">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="1018"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b2ba4f73-1d1e-45c5-a3e6-2ff8e4a8d1da12" id="1020">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - PROJECTSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="1022">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1021">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_1076f24e-e954-4336-bf97-7f1dddb354f9" id="1023">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1024">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1025">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_38a1a4df-cac4-4f25-a230-4baec96aa021" id="1026">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTBYDEPTGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1027">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1028">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTBYDEPTGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_69538bf1-9a8a-4442-9bc7-a22aca9d7beb" id="1029">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTACTIVITYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1030">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1031">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTACTIVITYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_5a3c1459-4fbc-46a2-beaf-ffd1f1e4e8ba" id="1032">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">PROJECTASSETSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1033">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1034">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/PROJECTS.rptdocument</property>
+                                            <property name="targetBookmark">PROJECTASSETSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="9375524d-081c-4b60-96a4-aa8c8fdf4a43" id="969">
+                    <property name="title">Security and Access</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="d0f7eb6f-95ad-405e-80f3-c108452c8d5d" id="972">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="caption">
+                                <gadget-caption id="974">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="973"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_e229e0e4-5893-4f3b-b800-56577d6e7ea412" id="984">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="title">Reportlet - CSInsightsSummaries - BLOCKEDACCESSGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">387px</property>
+                            <property name="caption">
+                                <gadget-caption id="986">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="985">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">BLOCKEDACCESSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b54e2f31-afab-4e85-a52c-8f402e6255e2" id="1035">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">FAILEDLOGINGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1036">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1037">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">FAILEDLOGINGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_1941cc65-aceb-4c16-a9df-0c51038eaed8" id="1038">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">ACTIVITYHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1039">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1040">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">ACTIVITYHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_4bfa1ada-388b-4b2d-9149-e0c287673b29" id="1041">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">TOPDOWNLOADSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1042">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1043">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_7340cd97-e74f-4245-9c63-b9328907899d" id="1044">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">TOPUSERSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1045">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1046">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/ACCESS.rptdocument</property>
+                                            <property name="targetBookmark">TOPUSERSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+                <tab-element name="f3be91de-9088-439d-adf2-5a18ea07c104" id="975">
+                    <property name="title">Documents</property>
+                    <property name="backgroundImage">/Applications/CSInsights/img/hong_kong_night_skyline21.jpg</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="3558dae3-3794-48a3-a2b7-8dcea6f35046" id="978">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">907px</property>
+                            <property name="caption">
+                                <gadget-caption id="980">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="979"/>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b0ab6a19-91c5-4302-be9d-5257bfed830312" id="981">
+                            <property name="x">18px</property>
+                            <property name="y">18px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">TOPDOWNLOADGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="983">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="982">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_8703da9c-5321-49d9-b291-aacf9b72cd47" id="1047">
+                            <property name="x">432px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTHISTORYGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1048">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1049">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTHISTORYGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_0185d688-29f4-4aa2-a163-4bd570a63e72" id="1050">
+                            <property name="x">1001px</property>
+                            <property name="y">18px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTTYPEGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1051">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1052">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTTYPEGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_164f171d-f623-435b-926e-63eda9d99d28" id="1053">
+                            <property name="x">1001px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">DOCUMENTCLASSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1054">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1055">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">DOCUMENTCLASSGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_698ae5a0-2e70-4a2e-9cb2-2c0a1477ce3e" id="1056">
+                            <property name="x">432px</property>
+                            <property name="y">522px</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="title">COMMENTEDDOCSGADGET</property>
+                            <property name="externalGadgetURI">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">470px</property>
+                            <property name="width">540px</property>
+                            <property name="caption">
+                                <gadget-caption id="1057">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="1058">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/CSInsights/Report Designs/DOCUMENTS.rptdocument</property>
+                                            <property name="targetBookmark">COMMENTEDDOCSGADGET</property>
                                         </external-element-ref>
                                     </property>
                                 </data-view>

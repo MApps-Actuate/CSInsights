@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="layoutPreference">auto layout</property>
+    <body>
+        <text name="a21356c3-32c7-4c1c-8119-39210158e354" id="6">
+            <text-property name="content"><![CDATA[<div style="width: 300px;"><iframe style="display: block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=53295" width="390" height="240" frameborder="0" scrolling="no"></iframe><a style="text-indent: -9999em;margin: -20px 0 0 0;z-index: 1;height: 20px;position: relative;display: block" href="http://www.willyweather.com/tn/davidson-county/nashville-international-airport.html">Up to date weather for Nashville International Airport</a></div>]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="tabs">
+                <tab-element name="newTab" id="3">
+                    <property name="freeFormGadgets">
+                        <gadget name="aca79e96-1eb9-4cb0-a59d-239e3176bacc" id="4">
+                            <property name="x">16px</property>
+                            <property name="y">198px</property>
+                            <property name="height">228px</property>
+                            <property name="width">388px</property>
+                            <property name="title">Weather</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">228px</property>
+                            <property name="width">388px</property>
+                            <property name="caption">
+                                <gadget-caption id="7">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="5">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">a21356c3-32c7-4c1c-8119-39210158e354</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

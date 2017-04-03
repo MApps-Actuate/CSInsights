@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="layoutPreference">auto layout</property>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="tabs">
+                <tab-element name="newTab" id="3">
+                    <property name="freeFormGadgets">
+                        <gadget name="Gadget_b0ab6a19-91c5-4302-be9d-5257bfed8303" id="4">
+                            <property name="x">10px</property>
+                            <property name="y">11px</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="title">TOPDOWNLOADGADGET</property>
+                            <property name="externalGadgetURI">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">146px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="6">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="5">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/CSInsightsSummaries.rptdocument</property>
+                                            <property name="targetBookmark">TOPDOWNLOADGADGET</property>
+                                        </external-element-ref>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

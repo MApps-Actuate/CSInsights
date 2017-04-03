@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201603302314</property>
+    <property name="layoutPreference">auto layout</property>
+    <body>
+        <text name="fc56925e-82cc-4f02-9ed4-d56ed3e1c3e91" id="6">
+            <text-property name="content"><![CDATA[<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;amp;height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=act-mapps%40opentext.com&amp;amp;color=%231B887A&amp;amp;ctz=America%2FLos_Angeles" style="border-width:0" width="380" height="600" frameborder="0" scrolling="no"></iframe>]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="tabs">
+                <tab-element name="newTab" id="3">
+                    <property name="freeFormGadgets">
+                        <gadget name="078dbe38-a643-4025-a114-c8a5697ad8f512" id="4">
+                            <property name="x">18px</property>
+                            <property name="y">460px</property>
+                            <property name="height">533px</property>
+                            <property name="width">385px</property>
+                            <property name="title">Calendar</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">533px</property>
+                            <property name="width">385px</property>
+                            <property name="caption">
+                                <gadget-caption id="7">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Lato"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="5">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">fc56925e-82cc-4f02-9ed4-d56ed3e1c3e91</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>
